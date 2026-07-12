@@ -154,7 +154,7 @@ async def extract(request: Request):
             "EXACTLY these keys: invoice_no, date, vendor, amount, tax, currency.\n"
             "- date: ISO YYYY-MM-DD\n"
             "- amount: the SUBTOTAL before tax, as a plain number (no separators)\n"
-            "- tax: the tax amount only, as a plain number\n"
+            "- tax: the tax amount only\n"
             "- currency: ISO code (INR, USD, EUR...)\n"
             "- use null if a field is not present.\n\n"
             f"TEXT:\n{text}"
